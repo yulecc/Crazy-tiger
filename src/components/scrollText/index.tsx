@@ -14,10 +14,10 @@ const ScrollText = ({text}: {text: string}) => {
             style={{ marginTop: "0.6944vw" }}
           ></span>
           <div className="marquee_marquee__1PsyQ">
-            <h4 className="marquee_text__2uzbK" data-text="ABOUT AKAI">
+            <h4 className="marquee_text__2uzbK" data-text={text}>
               {text}
             </h4>
-            <h4 className="marquee_text__2uzbK" data-text="ABOUT AKAI">
+            <h4 className="marquee_text__2uzbK" data-text={text}>
             {text}
             </h4>
           </div>
