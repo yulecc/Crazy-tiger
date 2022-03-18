@@ -6,6 +6,12 @@ import "swiper/css";
 import "swiper/css/autoplay";
 import "./index.css";
 import ScrollText from "../../components/scrollText";
+import n1 from "assets/images/n1.png"
+import n2 from "assets/images/n2.png"
+import n3 from "assets/images/n3.png"
+import n4 from "assets/images/n4.png"
+import n5 from "assets/images/n5.png"
+import n6 from "assets/images/n6.png"
 
 const About = () => {
   return (
@@ -31,32 +37,48 @@ const About = () => {
                 <Image
                   boxSize="280px"
                   borderRadius="lg"
-                  src="https://img.syt5.com/2021/1112/20211112023309449.jpg.1080.1920.jpg"
-                  alt="Woman paying for a purchase"
+                  src={n1}
+                  alt="n1"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <Image
                   boxSize="280px"
                   borderRadius="lg"
-                  src="https://img.syt5.com/2021/1216/20211216084736236.jpg.1080.1920.jpg"
-                  alt="Woman paying for a purchase"
+                  src={n2}
+                  alt="n2"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <Image
                   boxSize="280px"
                   borderRadius="lg"
-                  src="https://img.syt5.com/2021/1216/20211216084736929.jpg.1080.1920.jpg"
-                  alt="Woman paying for a purchase"
+                  src={n3}
+                  alt="n3"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <Image
                   boxSize="280px"
                   borderRadius="lg"
-                  src="https://img.syt5.com/2021/1216/20211216084736802.png.1080.1920.jpg"
-                  alt="Woman paying for a purchase"
+                  src={n4}
+                  alt="n4"
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <Image
+                  boxSize="280px"
+                  borderRadius="lg"
+                  src={n5}
+                  alt="n5"
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <Image
+                  boxSize="280px"
+                  borderRadius="lg"
+                  src={n6}
+                  alt="n6"
                 />
               </SwiperSlide>
             </Swiper>

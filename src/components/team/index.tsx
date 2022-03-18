@@ -13,6 +13,9 @@ import {
 } from "@chakra-ui/react";
 import ScrollText from "../../components/scrollText";
 import twitter from 'assets/images/twitter.svg';
+import evan from 'assets/images/evan.png';
+import moon from 'assets/images/moon.png';
+import b from 'assets/images/b.png';
 
 const Team = () => {
   return (
@@ -22,14 +25,14 @@ const Team = () => {
       </Box>
       <Center py="100px">
         <Stack direction={["column", "row"]} spacing="50px">
-          <Box w="250px">
+          <Box w="280px">
             <VStack>
               <Box fontFamily={`'Acme', sans-serif;`} mb="20px">
                 <Image
                   boxSize="280px"
                   borderRadius="lg"
-                  src="https://img.syt5.com/2021/1112/20211112023309449.jpg.1080.1920.jpg"
-                  alt="Woman paying for a purchase"
+                  src={evan}
+                  alt="evan"
                 />
               </Box>
               <Box>
@@ -40,28 +43,28 @@ const Team = () => {
               <Box>Founder&Marketing</Box>
             </VStack>
           </Box>
-          <Box w="250px">
+          <Box w="280px">
             <VStack>
               <Box fontFamily={`'Acme', sans-serif;`} mb="20px">
                 <Image
                   boxSize="280px"
                   borderRadius="lg"
-                  src="https://img.syt5.com/2021/1112/20211112023309449.jpg.1080.1920.jpg"
-                  alt="Woman paying for a purchase"
+                  src={moon}
+                  alt="moon"
                 />
               </Box>
               <Box>Moon</Box>
               <Box>Developer</Box>
             </VStack>
           </Box>
-          <Box w="250px">
+          <Box w="280px">
             <VStack>
               <Box fontFamily={`'Acme', sans-serif;`} mb="20px">
                 <Image
                   boxSize="280px"
                   borderRadius="lg"
-                  src="https://img.syt5.com/2021/1112/20211112023309449.jpg.1080.1920.jpg"
-                  alt="Woman paying for a purchase"
+                  src={b}
+                  alt="Broccoli"
                 />
               </Box>
               <Box>Broccoli</Box>
