@@ -45,7 +45,7 @@ const Faq = () => {
       <Box id="faq">
         <ScrollText text="AKAI-FAQ" />
       </Box>
-      <Container maxW="full" py="50px" centerContent>
+      <Container maxW="full" py="100px" centerContent>
         <Accordion allowToggle w={{ base: "100%", md: "800px" }}>
           {faqList.map((faq, index) => {
             return (

@@ -8,7 +8,7 @@ const RoadMap = () => {
       <Box id="roadmap">
         <ScrollText text="AKAI-ROADMAP" />
       </Box>
-      <Center py="50px">
+      <Center py="100px">
         <Stack direction={["column", "row"]} spacing="30px">
           <Box w="250px">
             <VStack>

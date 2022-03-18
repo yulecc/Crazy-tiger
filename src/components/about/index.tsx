@@ -13,7 +13,7 @@ const About = () => {
       <Box id='about'>
         <ScrollText text="ABOUT-AKAI" />
       </Box>
-      <Container maxW='4xl' py='50px'>
+      <Container maxW='4xl' py='100px'>
         <Box display={{ md: "flex" }}>
           <Box flexShrink={0}>
             <Swiper

@@ -20,7 +20,7 @@ const Team = () => {
       <Box id="team">
         <ScrollText text="AKAI-TEAM" />
       </Box>
-      <Center py="50px">
+      <Center py="100px">
         <Stack direction={["column", "row"]} spacing="50px">
           <Box w="250px">
             <VStack>
