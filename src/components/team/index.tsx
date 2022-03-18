@@ -6,9 +6,13 @@ import {
   Image,
   Text,
   Stack,
+  Flex,
+  HStack,
   VStack,
+  Link
 } from "@chakra-ui/react";
 import ScrollText from "../../components/scrollText";
+import twitter from 'assets/images/twitter.svg';
 
 const Team = () => {
   return (
@@ -28,8 +32,12 @@ const Team = () => {
                   alt="Woman paying for a purchase"
                 />
               </Box>
-              <Box>Launch Twitter</Box>
-              <Box>Launch Discord</Box>
+              <Box>
+                <HStack>
+                  <Text>EVAN</Text> <Link isExternal href="https://twitter.com/akai_evan"><Image src={twitter} boxSize={5}/></Link>
+                </HStack>
+              </Box>
+              <Box>Founder&Marketing</Box>
             </VStack>
           </Box>
           <Box w="250px">
@@ -42,10 +50,8 @@ const Team = () => {
                   alt="Woman paying for a purchase"
                 />
               </Box>
-              <Box>Mint 3500 Akai</Box>
-              <Box>Secondary Market Listing</Box>
-              <Box>Blueship Cnft Giveaway</Box>
-              <Box>Cnft.tools Listing</Box>
+              <Box>Moon</Box>
+              <Box>Developer</Box>
             </VStack>
           </Box>
           <Box w="250px">
@@ -58,10 +64,8 @@ const Team = () => {
                   alt="Woman paying for a purchase"
                 />
               </Box>
-              <Box>Akai Series 2</Box>
-              <Box>Akai Holders' Giveaway</Box>
-              <Box>Cardano Stake Pool for Akai</Box>
-              <Box>More plans in the future......</Box>
+              <Box>Broccoli</Box>
+              <Box>Artist</Box>
             </VStack>
           </Box>
         </Stack>
