@@ -61,16 +61,16 @@ const About = () => {
               </SwiperSlide>
             </Swiper>
           </Box>
-          <Box mt={{ base: 4, md: 0 }} ml={{ md: 6 }}>
+          <Box mt={{ base: 4, md: 0 }} ml={{ md: 10 }}>
             <Center h="100%">
-              <Text mt={2} color="#fff" lineHeight="28px">
+              <Text mt={2} color="#fff" fontSize='22px' lineHeight="28px">
                 Akai is a collection of 3500 anime nfts made by anime
                 lovers.We're committed to building something for the long
                 term.Our vision is to build the best anime community on the
                 Cardano blockchain. 40% of the royalties on secondary sales will
                 be used to support the development of the project.
                 <br />
-                Follow us on Twitter and Join us Discord for up-to-date
+                Follow us on Twitter and Join us on Discord for up-to-date
                 information.
               </Text>
             </Center>
