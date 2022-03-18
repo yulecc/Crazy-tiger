@@ -11,7 +11,7 @@ const About = () => {
   return (
     <>
       <Box id='about'>
-        <ScrollText text="ABOUT AKAI" />
+        <ScrollText text="ABOUT-AKAI" />
       </Box>
       <Container maxW='4xl' py='50px'>
         <Box display={{ md: "flex" }}>

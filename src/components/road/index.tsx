@@ -6,7 +6,7 @@ const RoadMap = () => {
   return (
     <>
       <Box id="roadmap">
-        <ScrollText text="AKAI ROADMAP" />
+        <ScrollText text="AKAI-ROADMAP" />
       </Box>
       <Center py="50px">
         <Stack direction={["column", "row"]} spacing="30px">

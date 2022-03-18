@@ -14,7 +14,7 @@ const Team = () => {
   return (
     <>
       <Box id="team">
-        <ScrollText text="AKAI TEAM" />
+        <ScrollText text="AKAI-TEAM" />
       </Box>
       <Center py="50px">
         <Stack direction={["column", "row"]} spacing="50px">

@@ -43,7 +43,7 @@ const Faq = () => {
   return (
     <>
       <Box id="faq">
-        <ScrollText text="AKAI FAQ" />
+        <ScrollText text="AKAI-FAQ" />
       </Box>
       <Container maxW="full" py="50px" centerContent>
         <Accordion allowToggle w={{ base: "100%", md: "800px" }}>
