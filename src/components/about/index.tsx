@@ -83,7 +83,7 @@ const About = () => {
               </SwiperSlide>
             </Swiper>
           </Box>
-          <Box mt={{ base: 4, md: 0 }} ml={{ md: 10 }}>
+          <Box mt={{ base: 4, md: 0 }} ml={{ md: 16 }}>
             <Center h="100%">
               <Text mt={2} color="#fff" fontSize='22px' lineHeight="28px">
                 Akai is a collection of 3500 anime nfts made by anime
