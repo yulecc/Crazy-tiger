@@ -11,7 +11,7 @@ const RoadMap = () => {
       <Center py="100px">
         <Stack direction={["column", "row"]} spacing="30px">
           <Box w="300px">
-            <VStack>
+            <VStack spacing={2}>
               <Box
                 borderBottom="4px"
                 fontSize={"30px"}
@@ -23,10 +23,10 @@ const RoadMap = () => {
                   1
                 </Text>
               </Box>
-              <Box fontSize='22px' textAlign="left">Launch Twitter</Box>
-              <Box fontSize='22px' textAlign="left">Launch Discord</Box>
-              <Box fontSize='22px' textAlign="left">Launch Website</Box>
-              <Box fontSize='22px' textAlign="left">Cnft Calendar Listing</Box>
+              <Box fontSize='20px' textAlign="left">Launch Twitter</Box>
+              <Box fontSize='20px' textAlign="left">Launch Discord</Box>
+              <Box fontSize='20px' textAlign="left">Launch Website</Box>
+              <Box fontSize='20px' textAlign="left">Cnft Calendar Listing</Box>
             </VStack>
           </Box>
           <Box w="300px">
@@ -42,10 +42,10 @@ const RoadMap = () => {
                   2
                 </Text>
               </Box>
-              <Box fontSize='22px'>Mint 3500 Akai</Box>
-              <Box fontSize='22px'>Secondary Market Listing</Box>
-              <Box fontSize='22px'>Blueship Cnft Giveaway</Box>
-              <Box fontSize='22px'>Cnft.tools Listing</Box>
+              <Box fontSize='20px'>Mint 3500 Akai</Box>
+              <Box fontSize='20px'>Secondary Market Listing</Box>
+              <Box fontSize='20px'>Blueship Cnft Giveaway</Box>
+              <Box fontSize='20px'>Cnft.tools Listing</Box>
             </VStack>
           </Box>
           <Box w="300px">
@@ -61,10 +61,10 @@ const RoadMap = () => {
                   3
                 </Text>
               </Box>
-              <Box fontSize='22px'>Akai Series 2</Box>
-              <Box fontSize='22px'>Akai Holders' Giveaway</Box>
-              <Box fontSize='22px'>Cardano Stake Pool for Akai</Box>
-              <Box fontSize='22px'>More plans in the future......</Box>
+              <Box fontSize='20px'>Akai Series 2</Box>
+              <Box fontSize='20px'>Akai Holders' Giveaway</Box>
+              <Box fontSize='20px'>Cardano Stake Pool for Akai</Box>
+              <Box fontSize='20px'>More plans in the future......</Box>
             </VStack>
           </Box>
         </Stack>

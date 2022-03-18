@@ -37,7 +37,7 @@ const Team = () => {
               </Box>
               <Box>
                 <HStack>
-                  <Text>EVAN</Text> <Link isExternal href="https://twitter.com/akai_evan"><Image src={twitter} boxSize={5}/></Link>
+                  <Text fontSize='20px'>Evan</Text> <Link isExternal href="https://twitter.com/akai_evan"><Image src={twitter} boxSize={5}/></Link>
                 </HStack>
               </Box>
               <Box>Founder&Marketing</Box>
@@ -53,7 +53,7 @@ const Team = () => {
                   alt="moon"
                 />
               </Box>
-              <Box>Moon</Box>
+              <Box fontSize='20px'>Moon</Box>
               <Box>Developer</Box>
             </VStack>
           </Box>
@@ -67,7 +67,7 @@ const Team = () => {
                   alt="Broccoli"
                 />
               </Box>
-              <Box>Broccoli</Box>
+              <Box fontSize='20px'>Broccoli</Box>
               <Box>Artist</Box>
             </VStack>
           </Box>
