@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Center, Box, Image, Text } from "@chakra-ui/react";
+import { Container, Heading, Box, Image, Text } from "@chakra-ui/react";
 import "swiper/css";
 import "swiper/css/autoplay";
 import "./index.css";
@@ -14,12 +14,12 @@ const ScrollText = ({text}: {text: string}) => {
             style={{ marginTop: "0.6944vw" }}
           ></span>
           <div className="marquee_marquee__1PsyQ">
-            <h4 className="marquee_text__2uzbK" data-text={text}>
+            <Heading className="marquee_text__2uzbK" data-text={text}>
               {text}
-            </h4>
-            <h4 className="marquee_text__2uzbK" data-text={text}>
+            </Heading>
+            <Heading className="marquee_text__2uzbK" data-text={text}>
             {text}
-            </h4>
+            </Heading>
           </div>
           <span
             className="spacer_spacer__3DnTk spacer_inline__3cce0 spacer_padding__2Yv3s"

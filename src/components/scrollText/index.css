@@ -1,58 +1,59 @@
 .marquee_wrapper__15n4n {
-    border-top: 3px solid #b01022;
-    border-bottom: 3px solid #b01022;
-    overflow: hidden;
+  border-top: 3px solid #b01022;
+  border-bottom: 3px solid #b01022;
+  overflow: hidden;
+}
+.spacer_padding__2Yv3s {
+  margin: 0 !important;
+}
+.spacer_inline__3cce0 {
+  display: inline-block;
+  margin-top: 0;
+}
+.spacer_spacer__3DnTk {
+  display: block;
+  width: 1px;
+  height: 1px;
+  border: 0 solid #e2e8f0;
+  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -1800, 0, 1);
+  opacity: 1;
+  pointer-events: all;
+}
+.layout_outer__3JEcu {
+  background-color: #000;
+  color: #b01022;
+  -webkit-transition: background-color 0.5s ease-in-out;
+  transition: background-color 0.5s ease-in-out;
+  will-change: background-color;
+  overflow: hidden;
+}
+.marquee_marquee__1PsyQ {
+  display: flex;
+  align-items: center;
+  color: #b01022;
+}
+.marquee_text__2uzbK {
+  font-weight: 700;
+  white-space: nowrap;
+  animation: marquee_marquee__1PsyQ 7.5s linear infinite;
+  padding-left: 2ch;
+  font-size: 4.583vw;
+  line-height: 1.13;
+}
+h4 {
+  font-size: 4.583vw;
+  line-height: 1.13;
+}
+.marquee_text__2uzbK:after {
+  content: attr(data-text);
+  padding-left: 2ch;
+}
+@keyframes marquee_marquee__1PsyQ {
+  0% {
+    transform: translateX(0);
   }
-  .spacer_padding__2Yv3s {
-    margin: 0 !important;
+
+  to {
+    transform: translateX(-50%);
   }
-  .spacer_inline__3cce0 {
-    display: inline-block;
-    margin-top: 0;
-  }
-  .spacer_spacer__3DnTk {
-    display: block;
-    width: 1px;
-    height: 1px;
-    border: 0 solid #e2e8f0;
-    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -1800, 0, 1);
-    opacity: 1;
-    pointer-events: all;
-  }
-  .layout_outer__3JEcu {
-    background-color: #000;
-    color: #b01022;
-    -webkit-transition: background-color 0.5s ease-in-out;
-    transition: background-color 0.5s ease-in-out;
-    will-change: background-color;
-    overflow: hidden;
-  }
-  .marquee_marquee__1PsyQ {
-    display: flex;
-    align-items: center;
-    color: #b01022;
-  }
-  .marquee_text__2uzbK {
-    font-weight: 700;
-    white-space: nowrap;
-    animation: marquee_marquee__1PsyQ 7.5s linear infinite;
-    padding-left: 2ch;
-  }
-  h4 {
-    font-size: 4.583vw;
-    line-height: 1.13;
-  }
-  .marquee_text__2uzbK:after {
-    content: attr(data-text);
-    padding-left: 2ch;
-  }
-  @keyframes marquee_marquee__1PsyQ {
-    0% {
-      transform: translateX(0);
-    }
-  
-    to {
-      transform: translateX(-50%);
-    }
-  }
-  
+}
