@@ -50,8 +50,8 @@ const Faq = () => {
           {faqList.map((faq, index) => {
             return (
               <AccordionItem key={index}>
-                <AccordionButton>
-                  <Box flex="1" textAlign="left" fontSize="3xl">
+                <AccordionButton _focus={{background: 'none'}}>
+                  <Box flex="1" textAlign="left" fontSize="2xl">
                     {faq.title}
                   </Box>
                   <AccordionIcon />

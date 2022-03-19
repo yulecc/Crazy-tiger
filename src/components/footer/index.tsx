@@ -14,7 +14,7 @@ import twitter from "assets/images/twitter.svg";
 
 const Footer = () => {
   return (
-    <Box h='200px' bg='#b01022' pt='50px'>
+    <Box h='200px' bg='#b01022' pt='60px'>
       <Center>
         <Stack spacing={5} maxW='80%'>
           <HStack gap={2} justify='center'>

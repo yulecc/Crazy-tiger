@@ -87,8 +87,8 @@ const About = () => {
             <Center h="100%">
               <Text mt={2} color="#fff" fontSize='20px' lineHeight="32px">
                 Akai is a collection of 3500 anime nfts made by anime
-                lovers.We're committed to building something for the long
-                term.Our vision is to build the best anime community on the
+                lovers. We're committed to building something for the long
+                term. Our vision is to build the best anime community on the
                 Cardano blockchain. 40% of the royalties on secondary sales will
                 be used to support the development of the project.
                 Follow us on Twitter and Join us on Discord for up-to-date

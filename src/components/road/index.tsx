@@ -11,7 +11,7 @@ const RoadMap = () => {
       <Center py="100px">
         <Stack direction={["column", "row"]} spacing="30px">
           <Box w="300px">
-            <VStack spacing={2}>
+            <VStack spacing={1}>
               <Box
                 borderBottom="4px"
                 fontSize={"30px"}
@@ -30,7 +30,7 @@ const RoadMap = () => {
             </VStack>
           </Box>
           <Box w="300px">
-            <VStack>
+            <VStack spacing={1}>
               <Box
                 borderBottom="4px"
                 fontSize={"30px"}
@@ -49,7 +49,7 @@ const RoadMap = () => {
             </VStack>
           </Box>
           <Box w="300px">
-            <VStack>
+            <VStack spacing={1}>
               <Box
                 borderBottom="4px"
                 fontSize={"30px"}
