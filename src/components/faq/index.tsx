@@ -21,7 +21,7 @@ const FaqText: React.FC = ({ children }) => {
 
 const faqList = [
   { title: "What blockchain akai will be?", content: "Cardano." },
-  { title: "When mint?", content: "27 March 2022." },
+  { title: "When mint?", content: "7 April 2022." },
   {
     title: "What wallets are supported?",
     content:
