@@ -9,8 +9,8 @@ const About = () => {
   const slidesPerView = useBreakpointValue({ base: 1, md: 1, lg: 4, xl: 4, xxl: 4 });
 
   return (
-    <Container id="about" py="80px" pt='100px' bg="#000" maxW="100%">
-      <Box mt={{ base: 4, md: 0 }} ml={{ md: 16 }} mb="60px">
+    <Container id="about" py="80px" pt='100px' pb='120px' bg="#000" maxW="100%">
+      <Box mt={{ base: 4, md: 0 }} ml={{ md: 16 }} mb="80px">
         <Center h="100%">
           <Stack textAlign="center" color='orange'>
             <Text mt={2} fontSize="20px" lineHeight="32px">

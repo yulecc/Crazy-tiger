@@ -6,7 +6,7 @@ import ScrollText from "../../components/scrollText";
 const RoadMap = () => {
   return (
     <>
-      <Center py="70px" id="roadmap" bg='#000' px='20px'>
+      <Center py="70px" id="roadmap" pb='140px' bg='#000' px='20px'>
         <Stack direction={["column", "row"]} spacing="30px" h={['1400px', '900px']}>
           <Box  color='orange' h='full'>
             <Center><Text fontSize='30px' mb='70px'>ROADMAP</Text></Center>
