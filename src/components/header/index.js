@@ -117,7 +117,7 @@ const Header = () => {
       </Flex>
       <Center>
         <Stack textAlign='center'>
-          <Heading style={{ fontSize: '66px', color: '#000', marginTop: '70px' }}>CRAZY TIGER TRIBE</Heading>
+          <Heading style={{ fontSize: '66px', color: '#000', marginTop: '100px' }}>CRAZY TIGER TRIBE</Heading>
           {/* <img className="tiger-bg" src={tigerBg} alt="" /> */}
         </Stack>
       </Center>

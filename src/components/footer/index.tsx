@@ -32,7 +32,7 @@ const Footer = () => {
             <Link isExternal href="https://twitter.com/CrazyTigerTribe">
               <Image boxSize="30px" src={twitter} />
             </Link>
-            <Link isExternal href="https://t.co/Cw8lSS0mTg">
+            <Link isExternal href="https://discord.com/invite/4EtfYpjQ2c">
               <Image boxSize="30px" src={discord} />
             </Link>
           </HStack>
@@ -46,13 +46,13 @@ const Footer = () => {
             02b299d863deb06171809f7c7393a1e2da199932f16e6c38f0185ebf
           </Text>
           <Text color="#000" fontWeight={600}>
-            ©copyright Crazy Tiger Tribe 2022
+            ©Copyright Crazy Tiger Tribe 2022
           </Text>
           <HStack gap={2} justify="center">
             <Link isExternal href="https://twitter.com/CrazyTigerTribe">
               <Image boxSize="30px" src={twitter} />
             </Link>
-            <Link isExternal href="https://t.co/Cw8lSS0mTg">
+            <Link isExternal href="https://discord.com/invite/4EtfYpjQ2c">
               <Image boxSize="30px" src={discord} />
             </Link>
           </HStack>

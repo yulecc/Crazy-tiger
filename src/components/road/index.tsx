@@ -6,10 +6,10 @@ import ScrollText from "../../components/scrollText";
 const RoadMap = () => {
   return (
     <>
-      <Center py="100px" id="roadmap" bg='#000' px='20px'>
+      <Center py="70px" id="roadmap" bg='#000' px='20px'>
         <Stack direction={["column", "row"]} spacing="30px" h={['1400px', '900px']}>
           <Box  color='orange' h='full'>
-            <Center><Text fontSize='30px' mb='30px'>ROADMAP</Text></Center>
+            <Center><Text fontSize='30px' mb='70px'>ROADMAP</Text></Center>
             <HStack spacing={1} h={['1350px', '850px']} alignItems='space-between'>
               <Stack justify='space-between'  fontSize='18px'>
                 <Text>Phase 1</Text>

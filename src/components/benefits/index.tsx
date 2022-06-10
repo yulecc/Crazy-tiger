@@ -22,24 +22,24 @@ const Team = () => {
   return (
     <>
       <Center py="100px" id="benefits" bg="#000" color="orange">
-        <Stack spacing="20px">
-          <Center fontSize="30px" mb="20px">
+        <Stack spacing="50px">
+          <Center fontSize="30px" mb="40px">
             BENEFITS
           </Center>
 
-          <Flex direction={["column", "row"]} justify="center">
+          <Flex direction={["column", "row"]} gap='50px' justify="space-between">
             <Box
-              w="250px"
+              w="280px"
               border="1px solid orange"
               px="15px"
-              h="250px"
+              h="260px"
               mb="20px"
               mx="10px"
             >
               <VStack spacing={4}>
-                <Heading fontSize="xl" mt="40px">
+                <Text fontSize="xl" mt="40px">
                   Royalty Revenue Sharing
-                </Heading>
+                </Text>
                 <Text mt={4}>
                   40% of the royalties will be distributed to the holders. If
                   the amount of royalties is not enough we will buy valuable
@@ -48,17 +48,17 @@ const Team = () => {
               </VStack>
             </Box>
             <Box
-              w="250px"
+              w="280px"
               border="1px solid orange"
               px="15px"
-              h="250px"
+              h="260px"
               mb="20px"
               mx="10px"
             >
               <VStack spacing={4}>
-                <Heading fontSize="xl" mt="40px">
+                <Text fontSize="xl" mt="40px">
                   CNFT Whitelist
-                </Heading>
+                </Text>
                 <Text mt={4}>
                   We will collab with upcoming popular projects, choose which
                   project will be voted by holders, we will strive for the more
@@ -67,17 +67,17 @@ const Team = () => {
               </VStack>
             </Box>
             <Box
-              w="250px"
+              w="280px"
               border="1px solid orange"
               px="15px"
-              h="250px"
+              h="260px"
               mb="20px"
               mx="10px"
             >
               <VStack spacing={4}>
-                <Heading fontSize="xl" mt="40px">
+                <Text fontSize="xl" mt="40px">
                   CNFT Airdrops
-                </Heading>
+                </Text>
                 <Text mt={4}>
                   We want to bring more artists onto cardano. We will look for
                   creative nft artists around the world to airdrop nfts for

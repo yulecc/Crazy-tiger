@@ -16,11 +16,11 @@ const Team = () => {
   return (
     <>
       <Center py="100px" id="team" bg="#000" color='orange'>
-        <Stack spacing="50px">
+        <Stack spacing="80px">
           <Center fontSize='30px' mb='16px'>TEAM</Center>
           <Stack direction={["column", "row"]} spacing="50px">
             <Box w="280px">
-              <VStack spacing={1}>
+              <VStack spacing='2px'>
                 <Box fontFamily={`'Acme', sans-serif;`} mb="20px">
                   <Image
                     boxSize="280px"
@@ -31,7 +31,7 @@ const Team = () => {
                 </Box>
                 <Box>
                   <HStack>
-                    <Text fontSize="20px">Snowman</Text>{" "}
+                    <Text fontSize="20px" fontWeight={600}>Snowman</Text>{" "}
                   </HStack>
                 </Box>
                 <Box>Founder</Box>
@@ -39,7 +39,7 @@ const Team = () => {
               </VStack>
             </Box>
             <Box w="280px">
-              <VStack spacing={1}>
+              <VStack spacing='2px'>
                 <Box fontFamily={`'Acme', sans-serif;`} mb="20px">
                   <Image
                     boxSize="280px"
@@ -50,7 +50,7 @@ const Team = () => {
                 </Box>
                 <Box fontSize="20px">
                   <HStack>
-                    <Text fontSize="20px">Be Better</Text>{" "}
+                    <Text fontSize="20px" fontWeight={600}>Be Better</Text>{" "}
                   </HStack>
                 </Box>
                 <Box>Co-founder, Artist</Box>
@@ -58,7 +58,7 @@ const Team = () => {
               </VStack>
             </Box>
             <Box w="280px">
-              <VStack spacing={1}>
+              <VStack spacing='2px'>
                 <Box fontFamily={`'Acme', sans-serif;`} mb="20px">
                   <Image
                     boxSize="280px"
@@ -67,7 +67,7 @@ const Team = () => {
                     alt="Moon"
                   />
                 </Box>
-                <Box fontSize="20px">Jack</Box>
+                <Box fontSize="20px" fontWeight={600}>Jack</Box>
                 <Box>Co-founder</Box>
                 <Box>Developer</Box>
               </VStack>
@@ -75,7 +75,7 @@ const Team = () => {
           </Stack>
           <Stack direction={["column", "row"]} spacing="50px">
             <Box w="280px">
-              <VStack spacing={1}>
+              <VStack spacing='2px'>
                 <Box fontFamily={`'Acme', sans-serif;`} mb="20px">
                   <Image
                     boxSize="280px"
@@ -86,14 +86,14 @@ const Team = () => {
                 </Box>
                 <Box>
                   <HStack>
-                    <Text fontSize="20px">LaiLoLaiLo</Text>{" "}
+                    <Text fontSize="20px" fontWeight={600}>LaiLoLaiLo</Text>{" "}
                   </HStack>
                 </Box>
                 <Box>Mod Manager</Box>
               </VStack>
             </Box>
             <Box w="280px">
-              <VStack spacing={1}>
+              <VStack spacing='2px'>
                 <Box fontFamily={`'Acme', sans-serif;`} mb="20px">
                   <Image
                     boxSize="280px"
@@ -104,14 +104,14 @@ const Team = () => {
                 </Box>
                 <Box fontSize="20px">
                   <HStack>
-                    <Text fontSize="20px">Asta</Text>{" "}
+                    <Text fontSize="20px" fontWeight={600}>Asta</Text>{" "}
                   </HStack>
                 </Box>
                 <Box>Mod</Box>
               </VStack>
             </Box>
             <Box w="280px">
-              <VStack spacing={1}>
+              <VStack spacing='2px'>
                 <Box fontFamily={`'Acme', sans-serif;`} mb="20px">
                   <Image
                     boxSize="280px"
@@ -120,7 +120,7 @@ const Team = () => {
                     alt="Hayayi"
                   />
                 </Box>
-                <Box fontSize="20px">Hayayi</Box>
+                <Box fontSize="20px" fontWeight={600}>Hayayi</Box>
                 <Box>Mod</Box>
               </VStack>
             </Box>
