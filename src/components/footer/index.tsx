@@ -19,7 +19,7 @@ const Footer = () => {
   const [isLargerThan768] = useMediaQuery("(min-width: 768px)");
 
   return (
-    <Box h={['300px', '200px']} bg="orange" pt="90px" color="#000" px="20px">
+    <Box h={['230px', '70px']} bg="orange" pt="20px" color="#000" px="20px">
       {isLargerThan768 ? (
         <Flex justify="space-around">
           <Text color="#000" fontWeight={600}>
