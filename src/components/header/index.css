@@ -15,10 +15,18 @@
   animation: shine 2s forwards, flicker 3s infinite;
 } */
 
-.sign {
+.tiger-bg {
+  /* transform: translateY(-20%); */
+
+}
+.bg-wrapper {
+  background: orange;
+}
+
+/* .sign {
   background-image: radial-gradient(
     ellipse 50% 35% at 50% 50%,
-    #6b1839,
+    #c2af21,
     transparent
   );
   letter-spacing: 2;
@@ -29,8 +37,8 @@
   text-shadow: 0 0 0.6rem #ffffff, 0 0 1.5rem #f87281,
     -0.2rem 0.1rem 1rem #f87281, 0.2rem 0.1rem 1rem #f87281,
     0 -0.5rem 2rem #b01022, 0 0.5rem 3rem #b01022;
-  animation: shine 2s forwards, flicker 3s infinite;
-}
+  animation: shine 8s forwards, flicker 9s infinite;
+} */
 
 /* @keyframes blink {
   0%,

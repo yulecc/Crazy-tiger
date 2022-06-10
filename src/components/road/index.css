@@ -1,0 +1,15 @@
+.sprite-line {
+    width: 1px;
+    background: orange;
+    margin: 0 16px;
+}
+.dot {
+    width: 16px;
+    height: 16px;
+    background: orange;
+    border-radius: 50%;
+}
+.dot-wrapper {
+    margin-top: 0 !important;
+    margin-left: 8px !important;
+}

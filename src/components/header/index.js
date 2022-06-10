@@ -1,83 +1,125 @@
 import React, { useEffect } from "react";
-import { Box, Center, Container, Link, Flex, Button, Spacer, Image, HStack, Show } from "@chakra-ui/react";
+import {
+  Box, Center, Container, Link, Flex, Button, Spacer, Image, HStack, Show, Stack, Heading,
+  Menu, MenuButton, IconButton, MenuList, MenuItem
+} from "@chakra-ui/react";
+import { HamburgerIcon } from '@chakra-ui/icons'
 import "./index.css";
-import discord from 'assets/images/discord.svg'
-import twitter from 'assets/images/twitter.svg'
+
+import tigerBg from 'assets/images/tiger-bg.png'
 
 const Header = () => {
 
-  useEffect(()=>{
-
-  },[])
-
-  const heightToTop = (ele) => {
-    let root = document.body;
-    let height = 0;
-    do{
-      height += ele.offsetTop;
-      ele = ele.offsetParent;
-    } while(ele !== root);
-    return height;
-  }
-
-  const handleClick = (e)=>{
-    console.log(e,'eeeeeeeee')
-    window.scrollTo({
-      top: heightToTop(e.target),
-      behavior: 'smooth'
-    })
-  }
-
   return (
-    <Container maxW='100%'>
-      <Flex h='80px' alignItems='center'>
-        <Show above="lg">
-          <Box p='2'>
-            <HStack gap={2}>
-              <Link isExternal href="https://twitter.com/AkaiNft">
-                <Image boxSize='30px' src={twitter} />
-              </Link>
-              <Link isExternal href="https://discord.gg/fNR5TBrxbH">
-                <Image boxSize='30px' src={discord} />
-              </Link>
-            </HStack>
+    <Container h='100vh' maxW='100%' p={0} 
+      background='url(./images/header-bg.jpg) no-repeat center'
+      backgroundSize='contain'
+    >
+      <Flex h='80px' alignItems='center' justify='flex-end' pr='10px'>
+        <Show above='md'>
+          <Box>
+            <Button onClick={() => {
+              document.getElementById('home').scrollIntoView({
+                block: 'start',
+                behavior: 'smooth'
+              })
+            }} color='#000' _hover={{ color: '#fff' }} _focus={{ border: 'none' }} _active={{ background: 'none' }} mr='4' variant='ghost'>
+              HOME
+            </Button>
+            <Button onClick={() => {
+              document.getElementById('about').scrollIntoView({
+                block: 'start',
+                behavior: 'smooth'
+              })
+            }} color='#000' _hover={{ color: '#fff' }} _focus={{ border: 'none' }} _active={{ background: 'none' }} mr='4' variant='ghost'>
+              ABOUT
+            </Button>
+            <Button onClick={() => {
+              document.getElementById('roadmap').scrollIntoView({
+                block: 'start',
+                behavior: 'smooth'
+              })
+            }} color='#000' _hover={{ color: '#fff' }} _focus={{ border: 'none' }} _active={{ background: 'none' }} variant='ghost'>ROADMAP</Button>
+            <Button onClick={() => {
+              document.getElementById('benefits').scrollIntoView({
+                block: 'start',
+                behavior: 'smooth'
+              })
+            }} color='#000' _hover={{ color: '#fff' }} _focus={{ border: 'none' }} _active={{ background: 'none' }} variant='ghost'>BENEFITS</Button>
+            <Button onClick={() => {
+              document.getElementById('team').scrollIntoView({
+                block: 'start',
+                behavior: 'smooth'
+              })
+            }} color='#000' _hover={{ color: '#fff' }} _focus={{ border: 'none' }} _active={{ background: 'none' }} variant='ghost'>TEAM</Button>
+
+          </Box>
+        </Show>
+        <Show below='sm'>
+          <Box>
+            <Menu>
+              <MenuButton
+                as={IconButton}
+                aria-label='Options'
+                icon={<HamburgerIcon />}
+                variant='outline'
+              />
+              <MenuList style={{background: 'orange'}}>
+                <MenuItem onClick={() => {
+                    document.getElementById('home').scrollIntoView({
+                      block: 'start',
+                      behavior: 'smooth'
+                    })
+                  }}>
+                  <Button  color='#000' _hover={{ color: '#fff' }} _focus={{ border: 'none' }} _active={{ background: 'none' }} mr='4' variant='ghost'>
+                    HOME
+                  </Button>
+                </MenuItem>
+                <MenuItem onClick={() => {
+                    document.getElementById('about').scrollIntoView({
+                      block: 'start',
+                      behavior: 'smooth'
+                    })
+                  }} >
+                  <Button  color='#000' _hover={{ color: '#fff' }} _focus={{ border: 'none' }} _active={{ background: 'none' }} mr='4' variant='ghost'>
+                    ABOUT
+                  </Button>
+                </MenuItem>
+                <MenuItem onClick={() => {
+                    document.getElementById('roadmap').scrollIntoView({
+                      block: 'start',
+                      behavior: 'smooth'
+                    })
+                  }}>
+                  <Button  color='#000' _hover={{ color: '#fff' }} _focus={{ border: 'none' }} _active={{ background: 'none' }} variant='ghost'>ROADMAP</Button>
+                </MenuItem>
+                <MenuItem onClick={() => {
+                    document.getElementById('benefits').scrollIntoView({
+                      block: 'start',
+                      behavior: 'smooth'
+                    })
+                  }}>
+                  <Button  color='#000' _hover={{ color: '#fff' }} _focus={{ border: 'none' }} _active={{ background: 'none' }} variant='ghost'>BENEFITS</Button>
+                </MenuItem>
+                <MenuItem onClick={() => {
+                    document.getElementById('team').scrollIntoView({
+                      block: 'start',
+                      behavior: 'smooth'
+                    })
+                  }}>
+                  <Button  color='#000' _hover={{ color: '#fff' }} _focus={{ border: 'none' }} _active={{ background: 'none' }} variant='ghost'>TEAM</Button>
+                </MenuItem>
+              </MenuList>
+            </Menu>
           </Box>
         </Show>
 
-        <Spacer />
-        <Box>
-          <Button onClick={()=>{
-            document.getElementById('about').scrollIntoView({
-              block: 'start',
-              behavior: 'smooth'
-            })
-          }} color='#fff' _hover={{ color: '#b01022' }} _focus={{ border: 'none' }} _active={{ background: 'none' }} mr='4' variant='ghost'>
-            ABOUT
-          </Button>
-          <Button onClick={()=>{
-            document.getElementById('roadmap').scrollIntoView({
-              block: 'start',
-              behavior: 'smooth'
-            })
-          }} color='#fff' _hover={{ color: '#b01022' }} _focus={{ border: 'none' }} _active={{ background: 'none' }} variant='ghost'>ROADMAP</Button>
-          <Button onClick={()=>{
-            document.getElementById('team').scrollIntoView({
-              block: 'start',
-              behavior: 'smooth'
-            })
-          }} color='#fff' _hover={{ color: '#b01022' }} _focus={{ border: 'none' }} _active={{ background: 'none' }} variant='ghost'>TEAM</Button>
-          <Button onClick={()=>{
-            document.getElementById('faq').scrollIntoView({
-              block: 'start',
-              behavior: 'smooth'
-            })
-          }} color='#fff' _hover={{ color: '#b01022' }} _focus={{ border: 'none' }} _active={{ background: 'none' }} variant='ghost'>FAQ</Button>
-        </Box>
       </Flex>
-      <Center h='100vh'>
-        <div className="sign" style={{ fontSize: '40vmin' }}>
-          <span className="fast-flicker">A</span>k<span className="flicker">A</span>I
-        </div>
+      <Center>
+        <Stack textAlign='center'>
+          <Heading style={{ fontSize: '66px', color: '#000', marginTop: '70px' }}>CRAZY TIGER TRIBE</Heading>
+          {/* <img className="tiger-bg" src={tigerBg} alt="" /> */}
+        </Stack>
       </Center>
     </Container>
 
